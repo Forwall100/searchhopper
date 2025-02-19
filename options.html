@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Engine Switcher Settings</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    form { margin-bottom: 20px; }
+    input { margin: 5px; padding: 8px; width: 300px; }
+    button { padding: 8px 16px; background: #007bff; color: white; border: none; cursor: pointer; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Search Engines</h1>
+  <form id="engineForm">
+    <input type="text" id="engineName" placeholder="Engine Name" required><br>
+    <input type="url" id="engineUrl" placeholder="Search URL (e.g., https://google.com/search)" required><br>
+    <input type="text" id="engineParam" placeholder="Query Parameter (e.g., q)" required><br>
+    <button type="submit">Add Engine</button>
+  </form>
+  <ul id="engineList"></ul>
+  <script src="options.js"></script>
+</body>
+</html>
