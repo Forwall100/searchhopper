@@ -2,6 +2,8 @@
 
 A browser extension for Firefox that lets you easily switch between multiple search engines right from the search results page. 🚀
 
+[untitled.webm](https://github.com/user-attachments/assets/1887c926-c96e-44d3-9a8a-6d190d7385de)
+
 ---
 
 ## Features ✨
@@ -15,10 +17,10 @@ A browser extension for Firefox that lets you easily switch between multiple sea
 
 ## Screenshots 📸
 **Toolbar**
-![image](https://github.com/user-attachments/assets/779958c5-21dc-440e-8751-b5367af1cc95)
+![image](https://github.com/user-attachments/assets/5fa80bea-bd03-47a8-bd69-17cbd8a40c3b)
 
 **Settings Page**
-![image](https://github.com/user-attachments/assets/bbd53342-0c95-40d2-9081-ba3c1e95dca0)
+![image](https://github.com/user-attachments/assets/aa6fdcaa-1a9c-4218-b9a5-458fdaa088c0)
 
 ---
 
