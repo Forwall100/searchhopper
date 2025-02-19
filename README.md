@@ -1,4 +1,4 @@
-# Search Hopper 🔄
+# Search Hopper 🔍🔄
 
 A browser extension for Firefox that lets you easily switch between multiple search engines right from the search results page. 🚀
 
