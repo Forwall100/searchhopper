@@ -13,6 +13,15 @@ A browser extension for Firefox that lets you easily switch between multiple sea
 
 ---
 
+Screenshots 📸
+**Toolbar**
+![image](https://github.com/user-attachments/assets/779958c5-21dc-440e-8751-b5367af1cc95)
+
+**Settings Page**
+![image](https://github.com/user-attachments/assets/bbd53342-0c95-40d2-9081-ba3c1e95dca0)
+
+---
+
 ## How It Works 🛠️
 
 1. **Detects search pages**: When you perform a search on a supported website (e.g., Google), the extension detects the search query.
