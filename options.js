@@ -11,7 +11,6 @@ const DEFAULT_ENGINES = [
 function loadEngines() {
   chrome.storage.local.get(['engines'], data => {
     if (!data.engines) {
-      // Если движки не настроены, добавляем движки по умолчанию
       chrome.storage.local.set({ engines: DEFAULT_ENGINES }, () => {
         renderEngines(DEFAULT_ENGINES);
       });
@@ -22,18 +21,18 @@ function loadEngines() {
 }
 
 function renderEngines(engines) {
-  const list = document.getElementById('engineList');
-  list.innerHTML = '';
+  const tbody = document.querySelector('#engineTable tbody');
+  tbody.innerHTML = '';
   engines.forEach((engine, index) => {
-    const li = document.createElement('li');
-    li.innerHTML = `
-      <strong>${engine.name}</strong><br>
-      URL: ${engine.url}<br>
-      Parameter: ${engine.param}
-      <button data-index="${index}">Delete</button>
-    `;
-    li.querySelector('button').addEventListener('click', () => deleteEngine(index));
-    list.appendChild(li);
+    const row = document.createElement('tr');
+    row.innerHTML = `
+          <td><strong>${engine.name}</strong></td>
+          <td>${engine.url}</td>
+          <td>${engine.param}</td>
+          <td><button data-index="${index}">Delete</button></td>
+        `;
+    row.querySelector('button').addEventListener('click', () => deleteEngine(index));
+    tbody.appendChild(row);
   });
 }
 
