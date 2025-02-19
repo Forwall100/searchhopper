@@ -13,7 +13,7 @@ A browser extension for Firefox that lets you easily switch between multiple sea
 
 ---
 
-Screenshots 📸
+## Screenshots 📸
 **Toolbar**
 ![image](https://github.com/user-attachments/assets/779958c5-21dc-440e-8751-b5367af1cc95)
 
