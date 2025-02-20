@@ -2,6 +2,8 @@
 
 A browser extension for Firefox that lets you easily switch between multiple search engines right from the search results page. 🚀
 
+[![firefox web store](https://extensionworkshop.com/assets/img/documentation/publish/get-the-addon-129x45px.8041c789.png)](https://addons.mozilla.org/en-US/firefox/addon/search-hopper/)
+
 [untitled.webm](https://github.com/user-attachments/assets/1887c926-c96e-44d3-9a8a-6d190d7385de)
 
 ---
